@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" href="mystyle.css"></link>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="display-4 text-center mb-4 app-title">What's The Temp? <span id="temp" class="fa" style="color: #95D4C3;"></span></h1>
+
+        <div class="input-group input-group-lg">
+          
+          <input id="farInput" type="number" class="form-control" placeholder="Enter number">
+          <div class="input-group-addon starter">&deg;F</div>
+          <div class="input-group-addon result-a"><span id="farToCel"></span> &deg;C</div>
+          <div class="input-group-addon result-b"><span id="farToKel"></span> &deg;K</div>
+        </div>
+
+        <div class="input-group input-group-lg">
+
+          <input id="celInput" type="number" class="form-control" placeholder="Enter number">
+          <div class="input-group-addon starter">&deg;C</div>
+          <div class="input-group-addon result-a"><span id="celToFar"></span> &deg;F</div>
+          <div class="input-group-addon result-b"><span id="celToKel"></span> &deg;K</div>
+        </div>
+
+        <div class="input-group input-group-lg">
+
+          <input id="kelInput" type="number" class="form-control" placeholder="Enter number">
+          <div class="input-group-addon starter">&deg;K</div>
+          <div class="input-group-addon result-a"><span id="kelToFar"></span> &deg;F</div>
+          <div class="input-group-addon result-b"><span id="kelToCel"></span> &deg;C</div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer">
+      <p class="footer-text text-center"><a href="">Made with <span class="heart">❤</span> by Kartikay Sharma</a></p>
+    </div>
+
+  </div>
+  <script src="myscript.js"></script>
+</body>
+</html>
